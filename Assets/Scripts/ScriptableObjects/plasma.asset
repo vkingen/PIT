@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b243f1caf17bc984bb42ea18828144ad, type: 3}
+  m_Name: plasma
+  m_EditorClassIdentifier: 
+  name: plasma
+  AddBulletSpread: 0
+  BulletSpreadVariance: {x: 0.01, y: 0.01, z: 0.01}
+  ImpactParticleSystem: {fileID: 19881718, guid: 31899ebea0f76d841ac3971fa36fa3b1, type: 3}
+  BulletTrail: {fileID: 328621789431213768, guid: cd094f1ac416c0342a1526f178d3e5c9, type: 3}
+  ShootDelay: 0.5
+  Mask:
+    serializedVersion: 2
+    m_Bits: 1
+  BulletSpeed: 150
+  damage: 50
+  shootingAudio: {fileID: 8300000, guid: 6aada2bea32e9fd469fb403cac011634, type: 3}
+  reloadAudio: {fileID: 8300000, guid: 07d64665e3a46dd42a5bbd0a1a558f74, type: 3}
+  maxAmmo: 100
+  totalAmountOfAmmoRemaining: 0
+  magazineSize: 10
+  ammo: 0

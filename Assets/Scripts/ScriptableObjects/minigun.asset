@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b243f1caf17bc984bb42ea18828144ad, type: 3}
+  m_Name: minigun
+  m_EditorClassIdentifier: 
+  name: minigun
+  AddBulletSpread: 1
+  BulletSpreadVariance: {x: 0.01, y: 0.01, z: 0.01}
+  ImpactParticleSystem: {fileID: 6131278079469424487, guid: 9cf46f783ef0622468f98cc9bac1aaaf, type: 3}
+  BulletTrail: {fileID: 328621789431213768, guid: f61b70b39b8480c4d98d553230c43793, type: 3}
+  ShootDelay: 0.1
+  Mask:
+    serializedVersion: 2
+    m_Bits: 1
+  BulletSpeed: 200
+  damage: 5
+  shootingAudio: {fileID: 8300000, guid: eb28925d36b3bcb4988919bc3839b3d8, type: 3}
+  reloadAudio: {fileID: 8300000, guid: 00c31a24b75837b4b82f469cce96f7f3, type: 3}
+  maxAmmo: 500
+  totalAmountOfAmmoRemaining: 0
+  magazineSize: 50
+  ammo: 0
